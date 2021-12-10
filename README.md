@@ -1,2 +1,2 @@
 # Advent-of-Code
-My solutions for the adventofcode.com/2021 challenge
+My solutions for the adventofcode.com challenges
