@@ -4,6 +4,7 @@ with open("input.txt", "r") as f:
 OPENING = ("(", "[", "{", "<")
 CLOSING = (")", "]", "}", ">")
 
+
 def find_invalid(line):
     for i in range(len(line) - 1):
         try:
@@ -17,5 +18,6 @@ def find_invalid(line):
             line.pop(i)
             line.pop(i)
 
+
 for item in lines:
-    
+    pass
