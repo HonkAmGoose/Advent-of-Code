@@ -1,4 +1,4 @@
-with open("2021/09/input.txt", "r") as f:
+with open("input.txt", "r") as f:
     lines = [i.strip() for i in f]
 
 basins = []

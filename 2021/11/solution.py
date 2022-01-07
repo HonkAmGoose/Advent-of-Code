@@ -1,4 +1,4 @@
-with open("11/test.txt", "r") as f:
+with open("test.txt", "r") as f:
     lines = []
     for i in f:
         lines.append([int(j) for j in i.strip()])
