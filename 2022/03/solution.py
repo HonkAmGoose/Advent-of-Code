@@ -1,13 +1,13 @@
 with open("input.txt", "r") as file:
     lines = []
     for line in file.readlines():
-        line = line.strip()
-        mid = len(line)//2
-        lines.append([line[:mid], line[mid:]])
+        lines.append(line.strip())
 
 chars = []
-for line in lines:
-    chars.append([item for item in line[0] if item in line[1]])
+for i in range(len(lines) // 3):
+    chars.append([
+        item for item in lines[3*i] if item in lines[3*i + 1] and item in lines[3*i + 2]
+    ])
 
 total = 0
 for chararr in chars:
